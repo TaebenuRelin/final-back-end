@@ -1,0 +1,34 @@
+/* About.css */
+
+.about-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b0a0a;
+}
+
+.about-card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(238, 238, 238, 0.171); /* Efek bayangan ringan */
+  background-color: #1a1a1a85;
+  padding: 20px 20px 80px 20px;
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+
+.about-content {
+  margin-top: 20px;
+}
+
+.text-center {
+  /* Gaya tambahan sesuai kebutuhan */
+  text-align: center;
+}
+
+.bga {
+  height: 100vh;
+  background-color: rgb(245, 242, 240);
+  width: 82vw;
+}

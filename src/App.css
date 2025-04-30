@@ -1,0 +1,87 @@
+body {
+  margin: 0 auto;
+  padding-left: 245px;
+  background-color: #1a1a1a;
+}
+
+.inka {
+  background-color: #85dc9f;
+  color: white;
+  /* background: url("./components/drakor2.jpeg"); */
+}
+
+.containerbot {
+  background-color: #ed8c1e;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.darker {
+  background-color: #11885ee5;
+}
+
+.containerbot::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.containerbot img {
+  float: left;
+  max-width: 50px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 70%;
+}
+
+.containerbot img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.time-right {
+  float: right;
+  color: white;
+}
+
+.time-left {
+  float: left;
+  color: white;
+}
+
+.containerbot .col-sm-8 {
+  padding: 0px; /* Atur padding sesuai keinginanmu */
+}
+
+.buttonStyle {
+  border: none;
+  background-color: #06676c;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 70px;
+  border-radius: 60px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.buttonStyle:hover,
+.buttonStyle.active {
+  background-color: rgba(8, 168, 43, 0.8);
+}
+
+.sidebarStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #0a8783;
+  color: #fff;
+}
+
